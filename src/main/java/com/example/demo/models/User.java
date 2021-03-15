@@ -12,10 +12,6 @@ public class User {
     public User() {
     }
 
-    public User(long userId) {
-        this.userId = userId;
-    }
-
     public User(long userId, String gigaText) {
         this.userId = userId;
         this.gigaText = gigaText;
